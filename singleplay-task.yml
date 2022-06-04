@@ -1,0 +1,11 @@
+
+---
+- name: update directory
+  hosts: test
+
+  tasks:
+  - name: create dir in n1
+    file:
+      path: /home/ubuntu/n1_dir
+      state: directory
+...
