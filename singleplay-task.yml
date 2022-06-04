@@ -4,8 +4,8 @@
   hosts: test
 
   tasks:
-  - name: create dir in n1
+  - name: create dir in both nodes
     file:
-      path: /home/ubuntu/n1_dir
+      path: /home/ubuntu/sample_dir
       state: directory
 ...
