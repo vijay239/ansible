@@ -3,7 +3,7 @@
 - name: update directory
   hosts: test
 
-  tasks:
+  tasks:  #test
   - name: create dir in both nodes
     file:
       path: /home/ubuntu/sample_dir
