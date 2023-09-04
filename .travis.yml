@@ -6,3 +6,5 @@ python:
 
 script: 
   - echo "Hello"
+on:
+    branch: main
